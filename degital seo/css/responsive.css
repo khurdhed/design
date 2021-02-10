@@ -1,711 +1,1061 @@
- @media (min-width:991px) and (max-width: 1200px) { 
-    .head-degital-seo .upper-header .upper-header-content .up-location {
-        margin-left: 29%;
-    }
-
-    .input-site .input2 {
-        right: 13%;
-    }
-
-    .team-section .card:hover .icon-group {
-        z-index: 1;
-        position: absolute;
-        left: 0px;
-        top: 150px;
-        transition: 0.4s;
-        overflow: hidden;
-        opacity: 1;
-        height: 60px;
-    }
-
-    .team-section .card .icon-group ul {
-        margin-left: 12%;
-    }
-
-    .card-wrap .overlay-img1 i {
-        opacity: 0;
-        position: absolute;
-        left: 143px;
-        top: 65px;
-        transform: translate(-50%, 50%);
-        transition: 0.3s;
-        font-size: 25px;
-        color: #fff;
-    }
-
-    .card-wrap .overlay-img2 i {
-        opacity: 0;
-        position: absolute;
-        left: 143px;
-        top: 65px;
-        transform: translate(-50%, 50%);
-        transition: 0.3s;
-        font-size: 25px;
-        color: #fff;
-    }
-
-    .card-wrap .overlay-img3 i {
-        opacity: 0;
-        position: absolute;
-        left: 143px;
-        top: 65px;
-        transform: translate(-50%, 50%);
-        transition: 0.3s;
-        font-size: 25px;
-        color: #fff;
-    }
-
-    .card-wrap:hover i {
-        opacity: 1;
-        transition: 0.3s;
-
-    }
-
-    .news .card-wraper .comment-bar .comment-bar-title h2 {
-        float: none;
-        font-size: 15px;
-        margin-left: 29px;
-        margin-right: 10%;
-        color: #fff;
-        margin-top: 10px;
-    }
-
-    .comment-bar-icon {
-        margin-top: 0px;
-        margin-left: 29px;
-    }
-
-    .footer-single-wraper .single-box .massege-input .input-site-btn .input4 {
-        padding: 0px 24px;
-        color: #fff;
-        border-left: 17px solid #ff000000;
-        border-bottom: 46px solid #33cc99;
-        width: 50px;
-        height: 0;
-        position: absolute;
-        right: -53px;
-        top: -46px;
-    }
-}
-
-/* Normal desktop :992px. */
-@media (min-width:768px) and (max-width: 992px) {
-    .head-degital-seo .upper-header .upper-header-content .up-location {
-        margin-left: 0%;
-    }
-
-    .mobile-menu.mean-container {
-        margin-left: 74%;
-    }
-
-
-
-    .input-site .input1 {
-        width: 597px;
-    }
-
-    .input-site .input2 {
-        right: 8%;
-    }
-
-    .price-planning .single-price-wraper .sing-price-box {
-        margin-top: 35px;
-    }
-
-    .team-section .card:hover .icon-group {
-        z-index: 1;
-        position: absolute;
-        left: 0px;
-        top: 270px;
-        transition: 0.4s;
-        overflow: hidden;
-        opacity: 1;
-        height: 60px;
-    }
-
-    .team-section .card .icon-group ul {
-        margin-left: 26%;
-    }
-
-    .card-wrap .overlay-img1 i {
-        opacity: 0;
-        position: absolute;
-        left: 160px;
-        top: 65px;
-        transform: translate(-50%, 50%);
-        transition: 0.3s;
-        font-size: 25px;
-        color: #fff;
-    }
-
-    .card-wrap .overlay-img2 i {
-        opacity: 0;
-        position: absolute;
-        left: 160px;
-        top: 65px;
-        transform: translate(-50%, 50%);
-        transition: 0.3s;
-        font-size: 25px;
-        color: #fff;
-    }
-
-    .card-wrap .overlay-img3 i {
-        opacity: 0;
-        position: absolute;
-        left: 160px;
-        top: 65px;
-        transform: translate(-50%, 50%);
-        transition: 0.3s;
-        font-size: 25px;
-        color: #fff;
-    }
-
-    .card-wrap:hover i {
-        opacity: 1;
-        transition: 0.3s;
-
-    }
-
-    .news .card-wraper .card .card-body a {
-        color: #000;
-        text-transform: capitalize;
-        font-weight: 500;
-        font-size: 17px;
-        margin-bottom: 36px !important;
-        display: block;
-    }
-
-    .news .card-wraper .comment-bar .comment-bar-title h2 {
-        float: none;
-        font-size: 15px;
-        margin-left: 29px;
-        margin-right: 10%;
-        color: #fff;
-        margin-top: 10px;
-    }
-
-    .comment-bar-icon {
-        margin-top: 0px;
-        margin-left: 29px;
-    }
-
-    .input3 {
-
-        margin-left: -66px !important;
-    }
-
-    .footer-single-wraper .single-box .massege-input .input-site-btn .input4 {
-        padding: 0px 24px;
-        color: #fff;
-        border-left: 17px solid #ff000000;
-        border-bottom: 46px solid #33cc99;
-        width: 50px;
-        height: 0;
-        position: absolute;
-        right: 57px;
-        top: -46px;
-    }
-}
-
-
-/* Tablet desktop :768px. */
-@media (min-width: 576px) and (max-width: 768px) {
-
-
-    .up-number.float-left {
-        text-align: right;
-        margin-left: 23%;
-    }
-
-    .head-degital-seo .upper-header .upper-header-content .up-location {
-        margin-top: 30px;
-    }
-
-    /*  */
-
-    .news .card-wraper .card .card-body a {
-        color: #000;
-        text-transform: capitalize;
-        font-weight: 500;
-        font-size: 17px;
-        margin-bottom: 36px !important;
-        display: block;
-    }
-
-    .input-site .input1 {
-        width: 480px;
-    }
-
-    .input-site .input2 {
-        right: 16%;
-    }
-
-    .price-planning .single-price-wraper .sing-price-box {
-        margin-top: 35px;
-    }
-
-    .team-section .card .icon-group {
-        width: 100%;
-        background-color: #33cc66;
-        padding: 15px 0px;
-        position: absolute;
-        left: 0px;
-        top: 513px;
-        z-index: -1;
-        overflow: hidden !important;
-        transition: 0.3s;
-        opacity: 0;
-        height: 0px;
-    }
-
-    .team-section .card .icon-group ul {
-        margin-left: 34%;
-    }
-
-    .team-section .card:hover .icon-group {
-        z-index: 1;
-        position: absolute;
-        left: 0px;
-        top: 450px;
-        transition: 0.4s;
-        overflow: hidden;
-        opacity: 1;
-        height: 60px;
-    }
-
-    .card-wrap .overlay-img1 i {
-        opacity: 0;
-        position: absolute;
-        left: 252px;
-        top: 65px;
-        transform: translate(-50%, 50%);
-        transition: 0.3s;
-        font-size: 25px;
-        color: #fff;
-    }
-
-    .card-wrap .overlay-img2 i {
-        opacity: 0;
-        position: absolute;
-        left: 252px;
-        top: 65px;
-        transform: translate(-50%, 50%);
-        transition: 0.3s;
-        font-size: 25px;
-        color: #fff;
-    }
-
-    .card-wrap .overlay-img3 i {
-        opacity: 0;
-        position: absolute;
-        left: 252px;
-        top: 65px;
-        transform: translate(-50%, 50%);
-        transition: 0.3s;
-        font-size: 25px;
-        color: #fff;
-    }
-
-    .card-wrap:hover i {
-        opacity: 1;
-        transition: 0.3s;
-
-    }
-
-
-    .owl-carousel .owl-nav button.owl-prev {
-        position: absolute;
-        top: 199px;
-        left: -44px;
-    }
-
-    .owl-carousel .owl-nav button.owl-next {
-        position: absolute;
-        top: 199px;
-        right: -44px;
-    }
-
-    /* footer */
-    .input3 {
-
-        margin-left: -50px !important;
-    }
-
-    .footer-single-wraper .single-box .massege-input .input-site-btn .input4 {
-        padding: 0px 24px;
-        color: #fff;
-        border-left: 17px solid #ff000000;
-        border-bottom: 46px solid #33cc99;
-        width: 50px;
-        height: 0;
-        position: absolute;
-        right: 60px;
-        top: -46px;
-    }
-
-    .icon-group {
-        margin-bottom: 50px;
-    }
-
-}
-
-
-
-
-/* Large Mobile :480px. */
-@media only screen and (min-width: 440px) and (max-width: 576px) {
-    .container {
-        width: 440px;
-    }
-
-    .head-degital-seo .upper-header .upper-header-content .up-location {
-        display: inline-block;
-        justify-content: end;
-        margin-left: 20%;
-    }
-
-    .head-degital-seo .upper-header .upper-header-content .up-email,
-    .up-number,
-    .up-location {
-        margin-left: 20%;
-        margin-bottom: 10px;
-    }
-
-    .owl-carousel .owl-nav button.owl-prev {
-        position: absolute;
-        top: 841px;
-        left: 105px;
-    }
-
-    .price-planning .single-price-wraper .sing-price-box {
-        margin-top: 35px;
-    }
-
-
-    .owl-carousel .owl-nav button.owl-next {
-        position: absolute;
-        top: 841px;
-        right: 98px;
-
-    }
-
-    .input-site .input2 {
-        position: absolute;
-        right: 19%;
-        top: -52px;
-        width: 102px;
-        padding: 11px 15px;
-        background-color: #33cc66;
-        border: none;
-        color: #333333;
-        text-transform: capitalize;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 400;
-        outline: none;
-        font-size: 14px;
-    }
-
-    .input-site .input1 {
-        width: 340px;
-    }
-
-    .input-site .input2 {
-        right: 10%;
-    }
-
-    .team-section .card .icon-group {
-        width: 100%;
-        background-color: #33cc66;
-        padding: 15px 0px;
-        position: absolute;
-        left: 0px;
-        top: 420px;
-        z-index: -1;
-        overflow: hidden !important;
-        transition: 0.3s;
-        opacity: 0;
-        height: 0px;
-    }
-
-    .team-section .card .icon-group ul {
-        margin-left: 30%;
-    }
-
-    .team-section .card:hover .icon-group {
-        z-index: 1;
-        position: absolute;
-        left: 0px;
-        top: 350px;
-        transition: 0.4s;
-        overflow: hidden;
-        opacity: 1;
-        height: 60px;
-    }
-
-    .card-wrap .overlay-img1 i {
-        opacity: 0;
-        position: absolute;
-        left: 199px;
-        top: 65px;
-        transform: translate(-50%, 50%);
-        transition: 0.3s;
-        font-size: 25px;
-        color: #fff;
-    }
-
-    .card-wrap .overlay-img2 i {
-        opacity: 0;
-        position: absolute;
-        left: 199px;
-        top: 65px;
-        transform: translate(-50%, 50%);
-        transition: 0.3s;
-        font-size: 25px;
-        color: #fff;
-    }
-
-    .card-wrap .overlay-img3 i {
-        opacity: 0;
-        position: absolute;
-        left: 199px;
-        top: 65px;
-        transform: translate(-50%, 50%);
-        transition: 0.3s;
-        font-size: 25px;
-        color: #fff;
-    }
-
-    .card-wrap:hover i {
-        opacity: 1;
-        transition: 0.3s;
-
-    }
-
-    .input3 {
-
-        margin-left: -145px !important;
-    }
-
-    .footer-single-wraper .single-box .massege-input .input-site-btn .input4 {
-        padding: 0px 24px;
-        color: #fff;
-        border-left: 17px solid #ff000000;
-        border-bottom: 46px solid #33cc99;
-        width: 50px;
-        height: 0;
-        position: absolute;
-        right: 136px;
-        top: -46px;
-    }
-
-
-    .single-box img {
-
-        margin-top: 40px;
-    }
-
-    .icon-group {
-        margin-bottom: 100px;
-    }
-}
-
-
-/* small mobile :320px. */
-
-@media (max-width:440px) {
-    .container {
-        width: 350px;
-    }
-
-    .head-degital-seo .upper-header .upper-header-content .up-location {
-        display: inline-block;
-        justify-content: end;
-        margin-left: 20%;
-    }
-
-    .head-degital-seo .upper-header .upper-header-content .up-email,
-    .up-number,
-    .up-location {
-        margin-left: 20%;
-        margin-bottom: 10px;
-    }
-
-    .input-site .input2 {
-        position: absolute;
-        right: 19%;
-        top: -43px;
-        width: 102px;
-        padding: 8px 15px;
-        background-color: #33cc66;
-        border: none;
-        color: #333333;
-        text-transform: capitalize;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 400;
-        outline: none;
-        font-size: 13px;
-    }
-
-    .input-site .input1 {
-        width: 300px;
-        font-size: 10px;
-    }
-
-    .input-site .input2 {
-        right: 4%;
-    }
-
-
-    .price-planning .single-price-wraper .sing-price-box {
-        margin-top: 35px;
-    }
-
-    .owl-carousel .owl-nav button.owl-prev {
-        position: absolute;
-        top: 937px;
-        left: -18px;
-    }
-
-    .owl-carousel .owl-nav button.owl-next {
-        position: absolute;
-        top: 937px;
-        right: 211px
-    }
-
-
-    .team-section .card .icon-group {
-        width: 100%;
-        background-color: #33cc66;
-        padding: 15px 0px;
-        position: absolute;
-        left: 0px;
-        top: 350px;
-        z-index: -1;
-        overflow: hidden !important;
-        transition: 0.3s;
-        opacity: 0;
-        height: 0px;
-    }
-
-    .team-section .card .icon-group ul {
-        margin-left: 25%;
-    }
-
-    .team-section .card:hover .icon-group {
-        z-index: 1;
-        position: absolute;
-        left: 0px;
-        top: 261px;
-        transition: 0.4s;
-        overflow: hidden;
-        opacity: 1;
-        height: 60px;
-    }
-
-
-    .text-right {
-        text-align: left !important;
-    }
-
-    .card-wrap .overlay-img1 i {
-        opacity: 0;
-        position: absolute;
-        left: 157px;
-        top: 60px;
-        transform: translate(-50%, 50%);
-        transition: 0.3s;
-        font-size: 25px;
-        color: #fff;
-    }
-
-    .card-wrap .overlay-img2 i {
-        opacity: 0;
-        position: absolute;
-        left: 157px;
-        top: 60px;
-        transform: translate(-50%, 50%);
-        transition: 0.3s;
-        font-size: 25px;
-        color: #fff;
-    }
-
-    .card-wrap .overlay-img3 i {
-        opacity: 0;
-        position: absolute;
-        left: 157px;
-        top: 60px;
-        transform: translate(-50%, 50%);
-        transition: 0.3s;
-        font-size: 25px;
-        color: #fff;
-    }
-
-    .card-wrap:hover i {
-        opacity: 1;
-        transition: 0.3s;
-
-    }
-
-    .news .card-wraper .card .card-body a {
-        color: #000;
-        text-transform: capitalize;
-        font-weight: 500;
-        font-size: 17px;
-        margin-bottom: 36px !important;
-        display: block;
-    }
-
-    .news .card-wraper .comment-bar .comment-bar-title h2 {
-        float: none;
-        font-size: 15px;
-        margin-left: 29px;
-        margin-right: 10%;
-        color: #fff;
-        margin-top: 10px;
-    }
-
-    .comment-bar-icon {
-        margin-top: 0px;
-        margin-left: 29px;
-    }
-
-    .input3 {
-
-        margin-left: -36px !important;
-    }
-
-    .footer-single-wraper .single-box .massege-input .input-site-btn .input4 {
-        padding: 0px 24px;
-        color: #fff;
-        border-left: 17px solid #ff000000;
-        border-bottom: 46px solid #33cc99;
-        width: 50px;
-        height: 0;
-        position: absolute;
-        right: 31px;
-        top: -46px;
-    }
-
-    .single-box img {
-
-        margin-top: 40px;
-    }
-
-    .icon-group {
-        margin-bottom: 100px;
-    }
-
-    .degital-seo-footer .footer-single-wraper .single-box {
-        padding: 20px 10px;
-    }
-
-
-}
-
-@media (max-width:992px) {
-    .quote-button {
-        text-align: left !important;
-    }
-
-}
-
+ @media (min-width:991px) and (max-width: 1200px) {
+     .head-degital-seo .upper-header .upper-header-content .up-location {
+         margin-left: 29%;
+     }
+
+     .head-degital-seo .lower-header .site-nav {
+         -ms-flex: 0 0 66.666667%;
+         flex: 0 0 66.666667%;
+         max-width: 60.666667%;
+     }
+
+     .quote-button {
+         flex: 1 0 16.666667%;
+         max-width: 37.666667%;
+     }
+
+     .owl-carousel .owl-nav button.owl-prev {
+         position: absolute;
+         top: 165px;
+         left: -50px;
+         font-size: 25px !important;
+         background: #fff !important;
+         padding: 4px 10px !important;
+         border-radius: 0px !important;
+         outline: none;
+         color: #99cccc;
+     }
+
+     .owl-carousel .owl-nav button.owl-next {
+         position: absolute;
+         top: 165px;
+         right: -51px;
+         font-size: 25px !important;
+         background: #fff !important;
+         padding: 4px 10px !important;
+         border-radius: 0px !important;
+         outline: none;
+         color: #99cccc;
+     }
+
+
+     .slider-sec .slider-img .image-position5 img {
+         width: 34px;
+         height: 60px;
+         position: absolute;
+         right: 41px;
+         top: 91px;
+     }
+
+     .slider-sec .slider-img .image-position6 img {
+         width: 72px;
+         height: 95px;
+         right: 8px;
+         top: 157px;
+         position: absolute;
+     }
+
+     .slider-sec .slider-img .image-position7 img {
+         width: 101px;
+         height: 73px;
+         left: 58px;
+         bottom: 90px;
+         position: absolute;
+     }
+
+     .slider-sec .slider-img .image-position8 img {
+         width: 190px;
+         height: 107px;
+         left: 143px;
+         top: 206px;
+         position: absolute;
+     }
+
+     .slider-sec .slider-img .image-position9 img {
+         width: 80px;
+         height: 97px;
+         right: 83px;
+         top: 197px;
+         position: absolute;
+     }
+
+     .slider-sec .slider-img .image-position10 img {
+         width: 40px;
+         height: 40px;
+         left: 104px;
+         bottom: 44px;
+         position: absolute;
+     }
+
+     .slider-sec .slider-img .image-position11 img {
+         width: 81px;
+         height: 9px;
+         right: 118px;
+         bottom: 59px;
+         position: absolute;
+     }
+
+     .slider-sec .slider-img .image-position12 img {
+         width: 48px;
+         height: 92px;
+         position: absolute;
+         right: 64px;
+         bottom: 42px;
+     }
+
+     .input-site .input2 {
+         right: 13%;
+     }
+
+     .team-section .card:hover .icon-group {
+         z-index: 1;
+         position: absolute;
+         left: 0px;
+         top: 150px;
+         transition: 0.4s;
+         overflow: hidden;
+         opacity: 1;
+         height: 60px;
+     }
+
+     .team-section .card .icon-group ul {
+         margin-left: 12%;
+     }
+
+
+     .card-wrap:hover i {
+         opacity: 1;
+         transition: 0.3s;
+
+     }
+
+     .news .card-wraper .comment-bar .comment-bar-title h2 {
+         float: none;
+         font-size: 15px;
+         margin-left: 29px;
+         margin-right: 10%;
+         color: #fff;
+         margin-top: 10px;
+     }
+
+     .comment-bar-icon {
+         margin-top: 0px;
+         margin-left: 29px;
+     }
+
+     .footer-single-wraper .single-box .massege-input .input-site-btn .input4 {
+         padding: 0px 24px;
+         color: #fff;
+         border-left: 17px solid #ff000000;
+         border-bottom: 46px solid #33cc99;
+         width: 50px;
+         height: 0;
+         position: absolute;
+         right: -53px;
+         top: -46px;
+     }
+
+
+
+ }
+
+ /* Normal desktop :992px. */
+ @media (min-width:768px) and (max-width: 992px) {
+     .head-degital-seo .upper-header .upper-header-content .up-location {
+         margin-left:20px;
+     }
+
+     .mobile-menu.mean-container {
+         margin-left: 74%;
+     }
+
+     .slider-content h1 {
+         font-size: 39px !important;
+     }
+
+     /* slider-positioning */
+     .slider-sec .slider-img .image-position1 img {
+         width: 89px;
+         height: 65px;
+         position: absolute;
+         left: 15px;
+         top: 104px;
+     }
+
+     .slider-sec .slider-img .image-position2 img {
+         width: 62px;
+         height: 64px;
+         position: absolute;
+         left: 108px;
+         top: 86px;
+     }
+
+     .slider-sec .slider-img .image-position3 img {
+         width: 41px;
+         height: 33px;
+         position: absolute;
+         left: 175px;
+         top: 59px;
+     }
+
+     .slider-sec .slider-img .image-position4 img {
+         width: 76px;
+         height: 51px;
+         position: absolute;
+         left: 175px;
+         top: 99px;
+     }
+
+     .slider-sec .slider-img .image-position5 img {
+         width: 25px;
+         height: 48px;
+         position: absolute;
+         right: 67px;
+         top: 97px;
+     }
+
+     .slider-sec .slider-img .image-position6 img {
+         width: 56px;
+         height: 69px;
+         right: 12px;
+         top: 118px;
+         position: absolute;
+     }
+
+     .slider-sec .slider-img .image-position7 img {
+         width: 67px;
+         height: 51px;
+         left: 42px;
+         bottom: 166px;
+         position: absolute;
+     }
+
+     .slider-sec .slider-img .image-position8 img {
+         width: 128px;
+         height: 76px;
+         left: 105px;
+         top: 158px;
+         position: absolute;
+     }
+
+     .slider-sec .slider-img .image-position9 img {
+         width: 59px;
+         height: 66px;
+         right: 72px;
+         top: 155px;
+         position: absolute;
+     }
+
+     .slider-sec .slider-img .image-position10 img {
+         width: 30px;
+         height: 30px;
+         left: 69px;
+         bottom: 133px;
+         position: absolute;
+     }
+
+     .slider-sec .slider-img .image-position11 img {
+         width: 54px;
+         height: 7px;
+         right: 109px;
+         bottom: 141px;
+         position: absolute;
+     }
+
+     .slider-sec .slider-img .image-position12 img {
+         width: 37px;
+         height: 70px;
+         position: absolute;
+         right: 54px;
+         bottom: 124px;
+     }
+
+     .owl-carousel .owl-nav button.owl-next {
+         position: absolute;
+         top: 199px;
+         right: -41px;
+     }
+
+     .owl-carousel .owl-nav button.owl-prev {
+         position: absolute;
+         top: 199px;
+         left: -41px;
+     }
+
+     .input-site .input1 {
+         width: 597px;
+     }
+
+     .input-site .input2 {
+         right: 8%;
+     }
+
+     .price-planning .single-price-wraper .sing-price-box {
+         margin-top: 35px;
+     }
+
+     .team-section .card:hover .icon-group {
+         z-index: 1;
+         position: absolute;
+         left: 0px;
+         top: 270px;
+         transition: 0.4s;
+         overflow: hidden;
+         opacity: 1;
+         height: 60px;
+     }
+
+     .team-section .card .icon-group ul {
+         margin-left: 26%;
+     }
+
+
+
+     .news .card-wraper .card .card-body a {
+         color: #000;
+         text-transform: capitalize;
+         font-weight: 500;
+         font-size: 17px;
+         margin-bottom: 36px !important;
+         display: block;
+     }
+
+     .news .card-wraper .comment-bar .comment-bar-title h2 {
+         float: none;
+         font-size: 15px;
+         margin-left: 29px;
+         margin-right: 10%;
+         color: #fff;
+         margin-top: 10px;
+     }
+
+     .comment-bar-icon {
+         margin-top: 0px;
+         margin-left: 29px;
+     }
+
+     .input3 {
+
+         margin-left: -66px !important;
+     }
+
+     .image-popup img {
+         width: 90%;
+         height: 307px;
+         margin: auto;
+         display: block;
+         margin-top: 100px;
+     }
+
+     .footer-single-wraper .single-box .massege-input .input-site-btn .input4 {
+         padding: 0px 24px;
+         color: #fff;
+         border-left: 17px solid #ff000000;
+         border-bottom: 46px solid #33cc99;
+         width: 50px;
+         height: 0;
+         position: absolute;
+         right: 57px;
+         top: -46px;
+     }
+
+
+ }
+
+
+ /* Tablet desktop :768px. */
+ @media (min-width: 576px) and (max-width: 767px) {
+
+
+     .up-number.float-left {
+         text-align: right;
+         margin-left: 23%;
+     }
+
+     .head-degital-seo .upper-header .upper-header-content .up-location {
+         margin-top: 30px;
+     }
+
+     /*  */
+     .slider-sec .slider-img .image-position5 img {
+         width: 34px;
+         height: 60px;
+         position: absolute;
+         right: 102px;
+         top: 132px;
+     }
+
+     .slider-sec .slider-img .image-position6 img {
+         width: 72px;
+         height: 95px;
+         right: 28px;
+         top: 157px;
+         position: absolute;
+     }
+
+     .slider-sec .slider-img .image-position9 img {
+         width: 83px;
+         height: 103px;
+         right: 104px;
+         top: 197px;
+         position: absolute;
+     }
+
+     .slider-sec .slider-img .image-position12 img {
+         width: 53px;
+         height: 100px;
+         position: absolute;
+         right: 80px;
+         bottom: 34px;
+     }
+
+     .slider-sec .slider-img .image-position11 img {
+         width: 81px;
+         height: 9px;
+         right: 144px;
+         bottom: 45px;
+         position: absolute;
+     }
+
+     .owl-carousel .owl-nav button.owl-prev {
+         position: absolute;
+         top: 199px;
+         left: -44px;
+     }
+
+     .owl-carousel .owl-nav button.owl-next {
+         position: absolute;
+         top: 199px;
+         right: -44px;
+     }
+
+     /*  */
+
+     .news .card-wraper .card .card-body a {
+         color: #000;
+         text-transform: capitalize;
+         font-weight: 500;
+         font-size: 17px;
+         margin-bottom: 36px !important;
+         display: block;
+     }
+
+     .input-site .input1 {
+         width: 480px;
+     }
+
+     .input-site .input2 {
+         right: 4%;
+     }
+
+     .price-planning .single-price-wraper .sing-price-box {
+         margin-top: 35px;
+     }
+
+     .team-section .card .icon-group {
+         width: 100%;
+         background-color: #33cc66;
+         padding: 15px 0px;
+         position: absolute;
+         left: 0px;
+         top: 513px;
+         z-index: -1;
+         overflow: hidden !important;
+         transition: 0.3s;
+         opacity: 0;
+         height: 0px;
+     }
+
+     .team-section .card .icon-group ul {
+         margin-left: 34%;
+     }
+
+     .team-section .card:hover .icon-group {
+         z-index: 1;
+         position: absolute;
+         left: 0px;
+         top: 450px;
+         transition: 0.4s;
+         overflow: hidden;
+         opacity: 1;
+         height: 60px;
+     }
+
+     .image-popup img {
+         width: 100%;
+         height: 307px;
+         margin: auto;
+         display: block;
+         margin-top: 100px;
+     }
+
+     /* footer */
+     .input3 {
+
+         margin-left: -50px !important;
+     }
+
+     .footer-single-wraper .single-box .massege-input .input-site-btn .input4 {
+         padding: 0px 24px;
+         color: #fff;
+         border-left: 17px solid #ff000000;
+         border-bottom: 46px solid #33cc99;
+         width: 50px;
+         height: 0;
+         position: absolute;
+         right: 60px;
+         top: -46px;
+     }
+
+     .icon-group {
+         margin-bottom: 50px;
+     }
+
+     .form-wraper {
+         max-width: 70%;
+         background-color: #000;
+         border-radius: 5px;
+         padding: 20px 40px 55px 40px;
+         margin: auto;
+
+     }
+
+
+ }
+
+
+
+ /* Large Mobile :480px. */
+ @media only screen and (min-width: 440px) and (max-width: 576px) {
+     .container {
+         width: 440px;
+     }
+
+     .head-degital-seo .upper-header .upper-header-content .up-location {
+         display: inline-block;
+         justify-content: end;
+         margin-left: 20%;
+     }
+
+     .head-degital-seo .upper-header .upper-header-content .up-email,
+     .up-number,
+     .up-location {
+         margin-left: 20%;
+         margin-bottom: 10px;
+     }
+
+     .owl-carousel .owl-nav button.owl-prev {
+         position: absolute;
+         top: 731px;
+         left: 105px;
+     }
+
+     .price-planning .single-price-wraper .sing-price-box {
+         margin-top: 35px;
+     }
+
+
+     .owl-carousel .owl-nav button.owl-next {
+         position: absolute;
+         top: 731px;
+         right: 98px;
+
+     }
+
+     .slider-content h1 {
+         font-size: 49px !important;
+     }
+
+     /* slider-positioning */
+     .slider-sec .slider-img .image-position1 img {
+         width: 89px;
+         height: 65px;
+         position: absolute;
+         left: 15px;
+         top: 104px;
+     }
+
+     .slider-sec .slider-img .image-position2 img {
+         width: 62px;
+         height: 77px;
+         position: absolute;
+         left: 108px;
+         top: 74px;
+     }
+
+     .slider-sec .slider-img .image-position3 img {
+         width: 41px;
+         height: 33px;
+         position: absolute;
+         left: 175px;
+         top: 48px;
+     }
+
+     .slider-sec .slider-img .image-position4 img {
+         width: 98px;
+         height: 66px;
+         position: absolute;
+         left: 175px;
+         top: 85px;
+
+     }
+
+     .slider-sec .slider-img .image-position5 img {
+         width: 36px;
+         height: 63px;
+         position: absolute;
+         right: 123px;
+         top: 85px;
+     }
+
+     .slider-sec .slider-img .image-position6 img {
+         width: 56px;
+         height: 69px;
+         right: 65px;
+         top: 118px;
+         position: absolute;
+
+     }
+
+     .slider-sec .slider-img .image-position7 img {
+         width: 67px;
+         height: 51px;
+         left: 42px;
+         bottom: 166px;
+         position: absolute;
+     }
+
+     .slider-sec .slider-img .image-position8 img {
+         width: 152px;
+         height: 88px;
+         left: 99px;
+         top: 158px;
+         position: absolute;
+     }
+
+     .slider-sec .slider-img .image-position9 img {
+         width: 71px;
+         height: 72px;
+         right: 127px;
+         top: 155px;
+         position: absolute;
+     }
+
+     .slider-sec .slider-img .image-position10 img {
+         width: 30px;
+         height: 30px;
+         left: 64px;
+         bottom: 133px;
+         position: absolute;
+     }
+
+     .slider-sec .slider-img .image-position11 img {
+         width: 81px;
+         height: 9px;
+         right: 169px;
+         bottom: 127px;
+         position: absolute;
+     }
+
+     .slider-sec .slider-img .image-position12 img {
+         width: 37px;
+         height: 70px;
+         position: absolute;
+         right: 113px;
+         bottom: 121px;
+     }
+
+
+     .input-site .input2 {
+         position: absolute;
+         right: 19%;
+         top: -52px;
+         width: 102px;
+         padding: 11px 15px;
+         background-color: #33cc66;
+         border: none;
+         color: #333333;
+         text-transform: capitalize;
+         font-family: 'Poppins', sans-serif;
+         font-weight: 400;
+         outline: none;
+         font-size: 14px;
+     }
+
+     .input-site .input1 {
+         width: 340px;
+     }
+
+     .input-site .input2 {
+         right: 10%;
+     }
+
+     .team-section .card .icon-group {
+         width: 100%;
+         background-color: #33cc66;
+         padding: 15px 0px;
+         position: absolute;
+         left: 0px;
+         top: 420px;
+         z-index: -1;
+         overflow: hidden !important;
+         transition: 0.3s;
+         opacity: 0;
+         height: 0px;
+     }
+
+     .team-section .card .icon-group ul {
+         margin-left: 30%;
+     }
+
+     .team-section .card:hover .icon-group {
+         z-index: 1;
+         position: absolute;
+         left: 0px;
+         top: 350px;
+         transition: 0.4s;
+         overflow: hidden;
+         opacity: 1;
+         height: 60px;
+     }
+
+     .image-popup img {
+         width: 100%;
+         height: 307px;
+         margin: auto;
+         display: block;
+         margin-top: 100px;
+     }
+
+     .input3 {
+
+         margin-left: -145px !important;
+     }
+
+     .footer-single-wraper .single-box .massege-input .input-site-btn .input4 {
+         padding: 0px 24px;
+         color: #fff;
+         border-left: 17px solid #ff000000;
+         border-bottom: 46px solid #33cc99;
+         width: 50px;
+         height: 0;
+         position: absolute;
+         right: 136px;
+         top: -46px;
+     }
+
+
+     .single-box img {
+
+         margin-top: 40px;
+     }
+
+     .icon-group {
+         margin-bottom: 100px;
+     }
+
+     .card-body a {
+         margin-bottom: 40px;
+         display: inline-block;
+     }
+
+     .form-wraper {
+         max-width: 100%;
+         background-color: #000;
+         border-radius: 5px;
+         padding: 20px 40px 55px 40px;
+         margin: auto;
+
+     }
+
+
+ }
+
+
+ /* small mobile :320px. */
+
+ @media (max-width:440px) {
+     .container {
+         width: 350px;
+     }
+
+     .head-degital-seo .upper-header .upper-header-content .up-location {
+         display: inline-block;
+         justify-content: end;
+         margin-left: 20%;
+     }
+
+     .head-degital-seo .upper-header .upper-header-content .up-email,
+     .up-number,
+     .up-location {
+         margin-left: 20%;
+         margin-bottom: 10px;
+     }
+    .meanmenu-reveal{right: 28px!important;
+     left: auto;
+     text-align: center;
+     text-indent: 0px;
+     font-size: 18px;
+ }
+     .slider-content h1 {
+         font-size: 39px !important;
+     }
+
+     /* slider-positioning */
+     .slider-sec .slider-img .image-position1 img {
+         width: 89px;
+         height: 65px;
+         position: absolute;
+         left: 15px;
+         top: 104px;
+     }
+
+     .slider-sec .slider-img .image-position2 img {
+         width: 62px;
+         height: 64px;
+         position: absolute;
+         left: 108px;
+         top: 86px;
+     }
+
+     .slider-sec .slider-img .image-position3 img {
+         width: 41px;
+         height: 33px;
+         position: absolute;
+         left: 175px;
+         top: 59px;
+     }
+
+     .slider-sec .slider-img .image-position4 img {
+         width: 76px;
+         height: 51px;
+         position: absolute;
+         left: 175px;
+         top: 99px;
+     }
+
+     .slider-sec .slider-img .image-position5 img {
+         width: 25px;
+         height: 48px;
+         position: absolute;
+         right: 67px;
+         top: 97px;
+     }
+
+     .slider-sec .slider-img .image-position6 img {
+         width: 56px;
+         height: 69px;
+         right: 12px;
+         top: 118px;
+         position: absolute;
+     }
+
+     .slider-sec .slider-img .image-position7 img {
+         width: 67px;
+         height: 51px;
+         left: 42px;
+         bottom: 166px;
+         position: absolute;
+     }
+
+     .slider-sec .slider-img .image-position8 img {
+         width: 128px;
+         height: 76px;
+         left: 99px;
+         top: 158px;
+         position: absolute;
+     }
+
+     .slider-sec .slider-img .image-position9 img {
+         width: 59px;
+         height: 66px;
+         right: 72px;
+         top: 155px;
+         position: absolute;
+     }
+
+     .slider-sec .slider-img .image-position10 img {
+         width: 30px;
+         height: 30px;
+         left: 69px;
+         bottom: 133px;
+         position: absolute;
+     }
+
+     .slider-sec .slider-img .image-position11 img {
+         width: 54px;
+         height: 7px;
+         right: 109px;
+         bottom: 141px;
+         position: absolute;
+     }
+
+     .slider-sec .slider-img .image-position12 img {
+         width: 37px;
+         height: 70px;
+         position: absolute;
+         right: 54px;
+         bottom: 124px;
+     }
+
+     .owl-carousel .owl-nav button.owl-prev {
+         position: absolute;
+         top: 800px;
+         left: -18px;
+     }
+
+     .owl-carousel .owl-nav button.owl-next {
+         position: absolute;
+         top: 800px;
+         right: 211px;
+     }
+
+
+
+     .input-site .input2 {
+         position: absolute;
+         right: 19%;
+         top: -43px;
+         width: 102px;
+         padding: 8px 15px;
+         background-color: #33cc66;
+         border: none;
+         color: #333333;
+         text-transform: capitalize;
+         font-family: 'Poppins', sans-serif;
+         font-weight: 400;
+         outline: none;
+         font-size: 13px;
+     }
+
+     .input-site .input1 {
+         width: 300px;
+         font-size: 10px;
+     }
+
+     .input-site .input2 {
+         right: 4%;
+     }
+
+     .image-popup img {
+         width: 100%;
+         height: 207px;
+         margin: auto;
+         display: block;
+         margin-top: 100px;
+     }
+
+     .price-planning .single-price-wraper .sing-price-box {
+         margin-top: 35px;
+     }
+
+
+     .team-section .card .icon-group {
+         width: 100%;
+         background-color: #33cc66;
+         padding: 15px 0px;
+         position: absolute;
+         left: 0px;
+         top: 350px;
+         z-index: -1;
+         overflow: hidden !important;
+         transition: 0.3s;
+         opacity: 0;
+         height: 0px;
+     }
+
+     .team-section .card .icon-group ul {
+         margin-left: 25%;
+     }
+
+     .team-section .card:hover .icon-group {
+         z-index: 1;
+         position: absolute;
+         left: 0px;
+         top: 261px;
+         transition: 0.4s;
+         overflow: hidden;
+         opacity: 1;
+         height: 60px;
+     }
+
+
+     .text-right {
+         text-align: left !important;
+     }
+
+
+     .news .card-wraper .card .card-body a {
+         color: #000;
+         text-transform: capitalize;
+         font-weight: 500;
+         font-size: 17px;
+         margin-bottom: 36px !important;
+         display: block;
+     }
+
+     .news .card-wraper .comment-bar .comment-bar-title h2 {
+         float: none;
+         font-size: 15px;
+         margin-left: 29px;
+         margin-right: 10%;
+         color: #fff;
+         margin-top: 10px;
+     }
+
+     .comment-bar-icon {
+         margin-top: 0px;
+         margin-left: 29px;
+     }
+
+     .input3 {
+
+         margin-left: -36px !important;
+     }
+
+     .footer-single-wraper .single-box .massege-input .input-site-btn .input4 {
+         padding: 0px 24px;
+         color: #fff;
+         border-left: 17px solid #ff000000;
+         border-bottom: 46px solid #33cc99;
+         width: 50px;
+         height: 0;
+         position: absolute;
+         right: 31px;
+         top: -46px;
+     }
+
+     .single-box img {
+
+         margin-top: 40px;
+     }
+
+     .icon-group {
+         margin-bottom: 100px;
+     }
+
+     .degital-seo-footer .footer-single-wraper .single-box {
+         padding: 20px 10px;
+     }
+
+     .card-body a {
+         margin-bottom: 40px;
+         display: inline-block;
+     }
+
+     .form-wraper {
+         max-width: 100%;
+         background-color: #000;
+         border-radius: 5px;
+         padding: 20px 40px 55px 40px;
+         margin: auto;
+
+     }
+ }
+
+
+ @media (max-width:992px) {
+     .quote-button {
+         text-align: left !important;
+     }
+ }

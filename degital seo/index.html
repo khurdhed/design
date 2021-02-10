@@ -40,7 +40,7 @@
           <div class="row">
             <!-- upper-content -->
              <div class="upper-header-content col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="up-email float-left mr-5"><a href="mailto:crazycafe.net@gmail.com"><i class="fas fa-envelope mr-2"></i> <sapn>crazycafe.net@gmail.com</sapn></a></div>
+                <div class="up-email float-left mr-5"><a href="mailto:sample.net@gmail.com"><i class="fas fa-envelope mr-2"></i> <sapn>Sample.net@gmail.com</sapn></a></div>
                   <div class="up-number  float-left"><a href="tel:+00-786-420-590"><i class="fas fa-phone-alt mr-2"></i><sapn>+00-786-420-590</sapn></a></div>
                 <div class="up-location  float-left"><i class="fas fa-map-marker-alt mr-2"></i><sapn>Grant Ave. Carteret NJ 0708</sapn></div> 
              </div>
@@ -58,18 +58,18 @@
                
                   <div class="site-logo col-lg-2 col-md-3 col-sm-12 col-xs-4 text-left "><img src="img/logo.jpg" alt="404"> </div>
                     <div class="site-nav col-lg-8 col-md-9 col-sm-12 col-xs-2 text-right" id="mobile-menu">
-                      <ul>
-                         <li><a  class="active" href="#home">home</a></li>
-                         <li><a href="#about">about</a></li>
-                         <li><a href="#services">services</a></li>
-                         <li><a href="#project">project</a></li>
-                         <li><a href="#blog">blog</a></li>
-                         <li><a href="#pages">pages</a></li>
-                         <li><a href="#contact">contact</a></li>
-                      </ul>
-                    </div>
-                   <div class="mobile-menu"></div>
-                 <div class="quote-button col-lg-2 col-md-4 col-sm-12 col-xs-6 text-right"><a href="#">get a quote</a></div>
+                       <ul>
+                          <li><a  class="active" href="#home">home</a></li>
+                          <li><a href="#about">about</a></li>
+                          <li><a href="#services">services</a></li>
+                          <li><a href="#project">project</a></li>
+                          <li><a href="#blog">blog</a></li>
+                          <li><a href="#pages">pages</a></li>
+                          <li><a href="#contact">contact</a></li>
+                        </ul>
+                      </div>
+                    <div class="mobile-menu"></div>
+                 <div class="quote-button col-lg-2 col-md-4 col-sm-12 col-xs-6 text-right"> <a href="#" onclick="openForma()">Get A Quote</a></div>
               </div>
             </div>
          </div>
@@ -242,7 +242,7 @@
                       </div>
                          </div>
                         <!-- input row -->
-                               <div class="row  m-auto  wow animate__slideInUp">
+                             <div class="row  m-auto  wow animate__slideInUp">
                            <!-- text-input -->
                                 <div class="input-site  text-center m-auto col-lg-12">
                             <input class="input1" type="text" placeholder="type your website URL">
@@ -365,8 +365,8 @@
          <div class="clear::after">
            <div class="row"> 
              <div class="title col-lg-8 col-md-8 col-sm-12 col-xs-12 text-left">
-                 <h1>You start new business with us!</h1>
-                 <p>Duis dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim.</p>
+                <h1>You start new business with us!</h1>
+                  <p>Duis dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim.</p>
               </div>
             <div class="button col-lg-4 col-md-4 col-sm-12 col-xs-12 text-right"><a href="#">contact now</a></div>
          </div>
@@ -394,11 +394,11 @@
                          <div class="sub-sing-box">
                             <h2><sup>$</sup>200</h2>
                                <h3>Basic plan</h3>
-                                </div>
-                           <p>Duis autem vel eum iriure dolor in hendrevultate velit esse molest autem conse eumum dolore eu feugiat nulla</p>
-                        <div class="price-button"><a href="#">contact now</a></div>
+                                 </div>
+                             <p>Duis autem vel eum iriure dolor in hendrevultate velit esse molest autem conse eumum dolore eu feugiat nulla</p>
+                          <div class="price-button"><a href="#">contact now</a></div>
+                      </div>
                     </div>
-                 </div>
 
                     <!-- single-price-box-2 -->
                  <div class="wow fadeIn single-price-wraper col-lg-4 col-md-6 col-sm-12 col-xs-12 text-center"data-wow-delay="0.6s">
@@ -446,51 +446,73 @@
             </div>
           <!-- content box row -->
            <div class="row">
+
              <!-- sing-box-card1 -->
              <div class="wow animate__slideInUp card-wraper col-lg-4 col-md-6 col-sm-12 col-xs-12">
-              <div class="card ">
-                <div class="card-wrap">
-                   <div class="overlay-img1"><a href="#"><i class="fas fa-plus"></i></a>
-                     <div class="card-overlay"></div>
-                       </div>
-                          </div>
-                        </div>
-                      <div class="card-body text-left">
-                    <h5 class="card-title">Social Media Marketing</h5>
-                   <p class="card-text ">Duis autem veleum iriure dolor in hendre rtinm ilisis at vero autem veleum accumsan</p>      
-                 </div>
-                </div>
+               <div class="card ">
+                  <div class="card-wrap">
+                     <img src="img/study3.jpg" alt="picture" class="image" >
+                      <!--click full-image -->
+                         <div class="image-popup" id="myImage"> 
+                            <div class="delete-icon text-right" onclick="closeImage()"><i class="far fa-times-circle "></i></div> 
+                               <img src ="img/study3.jpg" alt="picture"  >
+                                   </div>
+                         <!-- overlay in image -->
+                                   <div class="overlay">
+                                <div class="overlay-icon"><a href="#"onclick="openImage()"><i class="fas fa-plus" ></i></a></div>
+                              </div>
+                            </div>
+                         </div>
+                        <div class="card-body text-left">
+                      <h5 class="card-title">Social Media Marketing</h5>
+                    <p class="card-text ">Duis autem veleum iriure dolor in hendre rtinm ilisis at vero autem veleum accumsan</p>      
+                  </div>
+              </div>
 
-                 <!-- sing-box-card2 -->
+          <!-- sing-box-card2 -->
                  <div class="wow animate__slideInDown card-wraper col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                  <div class="card ">
-                    <div class="card-wrap">
-                       <div class="overlay-img2"><a href="#"><i class="fas fa-plus"></i></a>
-                         <div class="card-overlay"></div>
-                            </div>
-                               </div>
-                            </div>
-                          <div class="card-body text-left">
-                        <h5 class="card-title">Free Techincal Audit</h5>
-                      <p class="card-text ">Duis autem veleum iriure dolor in hendre rtinm ilisis at vero autem veleum accumsan</p>      
-                    </div>
+                   <div class="card ">
+                     <div class="card-wrap">
+                        <img src="img/study2.jpg" alt="picture" class="image" >
+                   <!--click full-image -->
+                             <div class="image-popup" id="myImage1"> 
+                                <div class="delete-icon text-right" onclick="closeImage1()"><i class="far fa-times-circle "></i></div> 
+                                  <img src ="img/study2.jpg" alt="picture"  >
+                                     </div>
+                               <!-- overlay in image -->
+                                         <div class="overlay">
+                                      <div class="overlay-icon"><a href="#"onclick="openImage1()"><i class="fas fa-plus" ></i></a></div>
+                                   </div>
+                                </div>
+                             </div>
+                           <div class="card-body text-left">
+                         <h5 class="card-title">Free Techincal Audit</h5>
+                       <p class="card-text ">Duis autem veleum iriure dolor in hendre rtinm ilisis at vero autem veleum accumsan</p>      
+                     </div>
                   </div>
 
-              <!-- sing-box-card3 -->
+     <!-- sing-box-card3 -->
               <div class="wow animate__slideInUp card-wraper col-lg-4 col-md-6 col-sm-12 col-xs-12">
                 <div class="card ">
                   <div class="card-wrap">
-                     <div class="overlay-img3" ><a href="#"><i class="fas fa-plus"></i></a>
-                       <div class="card-overlay"></div>
-                         </div>
-                            </div>
-                          </div>
-                        <div class="card-body text-left">
-                      <h5 class="card-title">Online Marketing</h5>
-                    <p class="card-text ">Duis autem veleum iriure dolor in hendre rtinm ilisis at vero autem veleum accumsan</p>      
+                    <img src="img/study1.jpg" alt="picture" class="image">
+               <!--click full-image -->
+                        <div class="image-popup" id="myImage2"> 
+                           <div class="delete-icon text-right" onclick="closeImage2()"><i class="far fa-times-circle "></i></div> 
+                              <img src ="img/study1.jpg" alt="picture"  >
+                                 </div>
+                            <!-- overlay in image -->
+                                       <div class="overlay">
+                                    <div class="overlay-icon"><a href="#"onclick="openImage2()"><i class="fas fa-plus" ></i></a></div>
+                                  </div>
+                               </div>
+                             </div>
+                           <div class="card-body text-left">
+                         <h5 class="card-title">Online Marketing</h5>
+                       <p class="card-text ">Duis autem veleum iriure dolor in hendre rtinm ilisis at vero autem veleum accumsan</p>      
+                    </div>
                   </div>
-                </div>
-              </div>
+               </div>
         <!-- end rows -->
 
            </div>
@@ -521,7 +543,7 @@
                     <div class="img-div">
                 <!-- cart post date -->
                         <div class="post-date"><p class="date">20</p><p class="month">jun</p></div>
-                           <img src="img/news1.jpg" class="card-img-top " alt="...">
+                            <img src="img/news1.jpg" class="card-img-top " alt="...">
                   <!-- hover bar-->
                        <div class="comment-bar ">
                      <div class="comment-bar-title">
@@ -560,10 +582,10 @@
                     <div class="card ">
                        <div class="img-div">
                   <!-- cart post date -->
-                          <div class="post-date"><p class="date">20</p><p class="month">jun</p></div>
-                             <img src="img/news2.jpg" class="card-img-top " alt="...">
+                            <div class="post-date"><p class="date">20</p><p class="month">jun</p></div>
+                               <img src="img/news2.jpg" class="card-img-top " alt="...">
                       <!-- hover bar-->
-                          <div class="comment-bar ">
+                           <div class="comment-bar ">
                        <div class="comment-bar-title">
                     <h2> Posted by David Roman</h2>
                 </div>
@@ -647,10 +669,10 @@
 
           <!-- logo with description -->
           <div class="footer-single-wraper col-lg-3 col-md-6 col-sm-12 col-xs-12">
-            <div class="single-box">
-                <img src="img/Screenshot_2.jpg" alt="">
-               <p>Duis autem vel eum iriure dolores in hendrerit in vulputate velit esse autem vel eum iriure dolore.</p>
-            </div>
+             <div class="single-box">
+                 <img src="img/Screenshot_2.jpg" alt="">
+                <p>Duis autem vel eum iriure dolores in hendrerit in vulputate velit esse autem vel eum iriure dolore.</p>
+             </div>
           </div>
    <!-- important link -->
           <div class="footer-single-wraper col-lg-3 col-md-6 col-sm-12 col-xs-12">
@@ -717,7 +739,7 @@
         <div class="container">
            <div class="row ">
              <div class="copyright-notice col-lg-12 text-center ">
-                 <p>Copyright &copy 2016, All Right Reserved. Designed by Crazycafe</p>
+                 <p>Copyright &copy 2021, All Right Reserved. Designed by Mehedi hasan</p>
              </div>
            </div>
         </div>
@@ -727,22 +749,40 @@
 
 <!-- chat box markup -->
 <button class="open-button" onclick="openForm()"><i class="fab fa-facebook-messenger"></i></button>
-      
-<div class="text-center chat-popup" id="myForm">
-  <form action="" class="form-container">
-    <h2>Chat with us</h2>
-    <label for="msg"><b>Write your Message below</b></label>
-    <textarea placeholder="Type message.." name="msg" required></textarea>
 
-    <button type="submit" class="btn"><i class="far fa-paper-plane"></i></button>
-    <button type="button" class="btn cancel" onclick="closeForm()"><i class="fas fa-times"></i></button>
-  </form>
-</div>
+  <div class="text-center chat-popup" id="myForm">
+    <form action="#" class="form-container">
+      <h2>Chat with us</h2>
+        <label for="msg"><b>Write your Message below</b></label>
+          <textarea placeholder="Type message.." name="msg" required></textarea>
+         <button type="submit" class="btn"><i class="far fa-paper-plane"></i></button>
+       <button type="button" class="btn cancel" onclick="closeForm()"><i class="fas fa-times"></i></button>
+    </form>
+ </div>
+
+
+<!-- pop up form -->
+
+  <div class="form-popup" id="myForma"> 
+    <form action="/action_page.php" class="form-wraper">
+      <div class="delete-icon text-right" onclick="closeForma()"><i class="far fa-times-circle "></i></div>
+        <h1>Sign up/Login</h1>
+           <label for="email"><b>Email</b></label>
+              <input type="text" placeholder="Enter Email" name="email" required>
+                <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+          <button type="submit" class="btn">Login</button>
+        <button type="button" class="btn cancel">Sign up</button>
+    </form>
+  </div>
+
+<!-- ends pop up form -->
+
 <!-- bottom to top -->
 <a id='backTop'>Back To Top</a>
 
 <!-- script link  here -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <script src="js/jquery-1.12.4.min.js"></script>
   <script src="js/jquery-ui.min.js"></script>
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
