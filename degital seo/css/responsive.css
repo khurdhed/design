@@ -1,0 +1,711 @@
+ @media (min-width:991px) and (max-width: 1200px) { 
+    .head-degital-seo .upper-header .upper-header-content .up-location {
+        margin-left: 29%;
+    }
+
+    .input-site .input2 {
+        right: 13%;
+    }
+
+    .team-section .card:hover .icon-group {
+        z-index: 1;
+        position: absolute;
+        left: 0px;
+        top: 150px;
+        transition: 0.4s;
+        overflow: hidden;
+        opacity: 1;
+        height: 60px;
+    }
+
+    .team-section .card .icon-group ul {
+        margin-left: 12%;
+    }
+
+    .card-wrap .overlay-img1 i {
+        opacity: 0;
+        position: absolute;
+        left: 143px;
+        top: 65px;
+        transform: translate(-50%, 50%);
+        transition: 0.3s;
+        font-size: 25px;
+        color: #fff;
+    }
+
+    .card-wrap .overlay-img2 i {
+        opacity: 0;
+        position: absolute;
+        left: 143px;
+        top: 65px;
+        transform: translate(-50%, 50%);
+        transition: 0.3s;
+        font-size: 25px;
+        color: #fff;
+    }
+
+    .card-wrap .overlay-img3 i {
+        opacity: 0;
+        position: absolute;
+        left: 143px;
+        top: 65px;
+        transform: translate(-50%, 50%);
+        transition: 0.3s;
+        font-size: 25px;
+        color: #fff;
+    }
+
+    .card-wrap:hover i {
+        opacity: 1;
+        transition: 0.3s;
+
+    }
+
+    .news .card-wraper .comment-bar .comment-bar-title h2 {
+        float: none;
+        font-size: 15px;
+        margin-left: 29px;
+        margin-right: 10%;
+        color: #fff;
+        margin-top: 10px;
+    }
+
+    .comment-bar-icon {
+        margin-top: 0px;
+        margin-left: 29px;
+    }
+
+    .footer-single-wraper .single-box .massege-input .input-site-btn .input4 {
+        padding: 0px 24px;
+        color: #fff;
+        border-left: 17px solid #ff000000;
+        border-bottom: 46px solid #33cc99;
+        width: 50px;
+        height: 0;
+        position: absolute;
+        right: -53px;
+        top: -46px;
+    }
+}
+
+/* Normal desktop :992px. */
+@media (min-width:768px) and (max-width: 992px) {
+    .head-degital-seo .upper-header .upper-header-content .up-location {
+        margin-left: 0%;
+    }
+
+    .mobile-menu.mean-container {
+        margin-left: 74%;
+    }
+
+
+
+    .input-site .input1 {
+        width: 597px;
+    }
+
+    .input-site .input2 {
+        right: 8%;
+    }
+
+    .price-planning .single-price-wraper .sing-price-box {
+        margin-top: 35px;
+    }
+
+    .team-section .card:hover .icon-group {
+        z-index: 1;
+        position: absolute;
+        left: 0px;
+        top: 270px;
+        transition: 0.4s;
+        overflow: hidden;
+        opacity: 1;
+        height: 60px;
+    }
+
+    .team-section .card .icon-group ul {
+        margin-left: 26%;
+    }
+
+    .card-wrap .overlay-img1 i {
+        opacity: 0;
+        position: absolute;
+        left: 160px;
+        top: 65px;
+        transform: translate(-50%, 50%);
+        transition: 0.3s;
+        font-size: 25px;
+        color: #fff;
+    }
+
+    .card-wrap .overlay-img2 i {
+        opacity: 0;
+        position: absolute;
+        left: 160px;
+        top: 65px;
+        transform: translate(-50%, 50%);
+        transition: 0.3s;
+        font-size: 25px;
+        color: #fff;
+    }
+
+    .card-wrap .overlay-img3 i {
+        opacity: 0;
+        position: absolute;
+        left: 160px;
+        top: 65px;
+        transform: translate(-50%, 50%);
+        transition: 0.3s;
+        font-size: 25px;
+        color: #fff;
+    }
+
+    .card-wrap:hover i {
+        opacity: 1;
+        transition: 0.3s;
+
+    }
+
+    .news .card-wraper .card .card-body a {
+        color: #000;
+        text-transform: capitalize;
+        font-weight: 500;
+        font-size: 17px;
+        margin-bottom: 36px !important;
+        display: block;
+    }
+
+    .news .card-wraper .comment-bar .comment-bar-title h2 {
+        float: none;
+        font-size: 15px;
+        margin-left: 29px;
+        margin-right: 10%;
+        color: #fff;
+        margin-top: 10px;
+    }
+
+    .comment-bar-icon {
+        margin-top: 0px;
+        margin-left: 29px;
+    }
+
+    .input3 {
+
+        margin-left: -66px !important;
+    }
+
+    .footer-single-wraper .single-box .massege-input .input-site-btn .input4 {
+        padding: 0px 24px;
+        color: #fff;
+        border-left: 17px solid #ff000000;
+        border-bottom: 46px solid #33cc99;
+        width: 50px;
+        height: 0;
+        position: absolute;
+        right: 57px;
+        top: -46px;
+    }
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 576px) and (max-width: 768px) {
+
+
+    .up-number.float-left {
+        text-align: right;
+        margin-left: 23%;
+    }
+
+    .head-degital-seo .upper-header .upper-header-content .up-location {
+        margin-top: 30px;
+    }
+
+    /*  */
+
+    .news .card-wraper .card .card-body a {
+        color: #000;
+        text-transform: capitalize;
+        font-weight: 500;
+        font-size: 17px;
+        margin-bottom: 36px !important;
+        display: block;
+    }
+
+    .input-site .input1 {
+        width: 480px;
+    }
+
+    .input-site .input2 {
+        right: 16%;
+    }
+
+    .price-planning .single-price-wraper .sing-price-box {
+        margin-top: 35px;
+    }
+
+    .team-section .card .icon-group {
+        width: 100%;
+        background-color: #33cc66;
+        padding: 15px 0px;
+        position: absolute;
+        left: 0px;
+        top: 513px;
+        z-index: -1;
+        overflow: hidden !important;
+        transition: 0.3s;
+        opacity: 0;
+        height: 0px;
+    }
+
+    .team-section .card .icon-group ul {
+        margin-left: 34%;
+    }
+
+    .team-section .card:hover .icon-group {
+        z-index: 1;
+        position: absolute;
+        left: 0px;
+        top: 450px;
+        transition: 0.4s;
+        overflow: hidden;
+        opacity: 1;
+        height: 60px;
+    }
+
+    .card-wrap .overlay-img1 i {
+        opacity: 0;
+        position: absolute;
+        left: 252px;
+        top: 65px;
+        transform: translate(-50%, 50%);
+        transition: 0.3s;
+        font-size: 25px;
+        color: #fff;
+    }
+
+    .card-wrap .overlay-img2 i {
+        opacity: 0;
+        position: absolute;
+        left: 252px;
+        top: 65px;
+        transform: translate(-50%, 50%);
+        transition: 0.3s;
+        font-size: 25px;
+        color: #fff;
+    }
+
+    .card-wrap .overlay-img3 i {
+        opacity: 0;
+        position: absolute;
+        left: 252px;
+        top: 65px;
+        transform: translate(-50%, 50%);
+        transition: 0.3s;
+        font-size: 25px;
+        color: #fff;
+    }
+
+    .card-wrap:hover i {
+        opacity: 1;
+        transition: 0.3s;
+
+    }
+
+
+    .owl-carousel .owl-nav button.owl-prev {
+        position: absolute;
+        top: 199px;
+        left: -44px;
+    }
+
+    .owl-carousel .owl-nav button.owl-next {
+        position: absolute;
+        top: 199px;
+        right: -44px;
+    }
+
+    /* footer */
+    .input3 {
+
+        margin-left: -50px !important;
+    }
+
+    .footer-single-wraper .single-box .massege-input .input-site-btn .input4 {
+        padding: 0px 24px;
+        color: #fff;
+        border-left: 17px solid #ff000000;
+        border-bottom: 46px solid #33cc99;
+        width: 50px;
+        height: 0;
+        position: absolute;
+        right: 60px;
+        top: -46px;
+    }
+
+    .icon-group {
+        margin-bottom: 50px;
+    }
+
+}
+
+
+
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 440px) and (max-width: 576px) {
+    .container {
+        width: 440px;
+    }
+
+    .head-degital-seo .upper-header .upper-header-content .up-location {
+        display: inline-block;
+        justify-content: end;
+        margin-left: 20%;
+    }
+
+    .head-degital-seo .upper-header .upper-header-content .up-email,
+    .up-number,
+    .up-location {
+        margin-left: 20%;
+        margin-bottom: 10px;
+    }
+
+    .owl-carousel .owl-nav button.owl-prev {
+        position: absolute;
+        top: 841px;
+        left: 105px;
+    }
+
+    .price-planning .single-price-wraper .sing-price-box {
+        margin-top: 35px;
+    }
+
+
+    .owl-carousel .owl-nav button.owl-next {
+        position: absolute;
+        top: 841px;
+        right: 98px;
+
+    }
+
+    .input-site .input2 {
+        position: absolute;
+        right: 19%;
+        top: -52px;
+        width: 102px;
+        padding: 11px 15px;
+        background-color: #33cc66;
+        border: none;
+        color: #333333;
+        text-transform: capitalize;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        outline: none;
+        font-size: 14px;
+    }
+
+    .input-site .input1 {
+        width: 340px;
+    }
+
+    .input-site .input2 {
+        right: 10%;
+    }
+
+    .team-section .card .icon-group {
+        width: 100%;
+        background-color: #33cc66;
+        padding: 15px 0px;
+        position: absolute;
+        left: 0px;
+        top: 420px;
+        z-index: -1;
+        overflow: hidden !important;
+        transition: 0.3s;
+        opacity: 0;
+        height: 0px;
+    }
+
+    .team-section .card .icon-group ul {
+        margin-left: 30%;
+    }
+
+    .team-section .card:hover .icon-group {
+        z-index: 1;
+        position: absolute;
+        left: 0px;
+        top: 350px;
+        transition: 0.4s;
+        overflow: hidden;
+        opacity: 1;
+        height: 60px;
+    }
+
+    .card-wrap .overlay-img1 i {
+        opacity: 0;
+        position: absolute;
+        left: 199px;
+        top: 65px;
+        transform: translate(-50%, 50%);
+        transition: 0.3s;
+        font-size: 25px;
+        color: #fff;
+    }
+
+    .card-wrap .overlay-img2 i {
+        opacity: 0;
+        position: absolute;
+        left: 199px;
+        top: 65px;
+        transform: translate(-50%, 50%);
+        transition: 0.3s;
+        font-size: 25px;
+        color: #fff;
+    }
+
+    .card-wrap .overlay-img3 i {
+        opacity: 0;
+        position: absolute;
+        left: 199px;
+        top: 65px;
+        transform: translate(-50%, 50%);
+        transition: 0.3s;
+        font-size: 25px;
+        color: #fff;
+    }
+
+    .card-wrap:hover i {
+        opacity: 1;
+        transition: 0.3s;
+
+    }
+
+    .input3 {
+
+        margin-left: -145px !important;
+    }
+
+    .footer-single-wraper .single-box .massege-input .input-site-btn .input4 {
+        padding: 0px 24px;
+        color: #fff;
+        border-left: 17px solid #ff000000;
+        border-bottom: 46px solid #33cc99;
+        width: 50px;
+        height: 0;
+        position: absolute;
+        right: 136px;
+        top: -46px;
+    }
+
+
+    .single-box img {
+
+        margin-top: 40px;
+    }
+
+    .icon-group {
+        margin-bottom: 100px;
+    }
+}
+
+
+/* small mobile :320px. */
+
+@media (max-width:440px) {
+    .container {
+        width: 350px;
+    }
+
+    .head-degital-seo .upper-header .upper-header-content .up-location {
+        display: inline-block;
+        justify-content: end;
+        margin-left: 20%;
+    }
+
+    .head-degital-seo .upper-header .upper-header-content .up-email,
+    .up-number,
+    .up-location {
+        margin-left: 20%;
+        margin-bottom: 10px;
+    }
+
+    .input-site .input2 {
+        position: absolute;
+        right: 19%;
+        top: -43px;
+        width: 102px;
+        padding: 8px 15px;
+        background-color: #33cc66;
+        border: none;
+        color: #333333;
+        text-transform: capitalize;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        outline: none;
+        font-size: 13px;
+    }
+
+    .input-site .input1 {
+        width: 300px;
+        font-size: 10px;
+    }
+
+    .input-site .input2 {
+        right: 4%;
+    }
+
+
+    .price-planning .single-price-wraper .sing-price-box {
+        margin-top: 35px;
+    }
+
+    .owl-carousel .owl-nav button.owl-prev {
+        position: absolute;
+        top: 937px;
+        left: -18px;
+    }
+
+    .owl-carousel .owl-nav button.owl-next {
+        position: absolute;
+        top: 937px;
+        right: 211px
+    }
+
+
+    .team-section .card .icon-group {
+        width: 100%;
+        background-color: #33cc66;
+        padding: 15px 0px;
+        position: absolute;
+        left: 0px;
+        top: 350px;
+        z-index: -1;
+        overflow: hidden !important;
+        transition: 0.3s;
+        opacity: 0;
+        height: 0px;
+    }
+
+    .team-section .card .icon-group ul {
+        margin-left: 25%;
+    }
+
+    .team-section .card:hover .icon-group {
+        z-index: 1;
+        position: absolute;
+        left: 0px;
+        top: 261px;
+        transition: 0.4s;
+        overflow: hidden;
+        opacity: 1;
+        height: 60px;
+    }
+
+
+    .text-right {
+        text-align: left !important;
+    }
+
+    .card-wrap .overlay-img1 i {
+        opacity: 0;
+        position: absolute;
+        left: 157px;
+        top: 60px;
+        transform: translate(-50%, 50%);
+        transition: 0.3s;
+        font-size: 25px;
+        color: #fff;
+    }
+
+    .card-wrap .overlay-img2 i {
+        opacity: 0;
+        position: absolute;
+        left: 157px;
+        top: 60px;
+        transform: translate(-50%, 50%);
+        transition: 0.3s;
+        font-size: 25px;
+        color: #fff;
+    }
+
+    .card-wrap .overlay-img3 i {
+        opacity: 0;
+        position: absolute;
+        left: 157px;
+        top: 60px;
+        transform: translate(-50%, 50%);
+        transition: 0.3s;
+        font-size: 25px;
+        color: #fff;
+    }
+
+    .card-wrap:hover i {
+        opacity: 1;
+        transition: 0.3s;
+
+    }
+
+    .news .card-wraper .card .card-body a {
+        color: #000;
+        text-transform: capitalize;
+        font-weight: 500;
+        font-size: 17px;
+        margin-bottom: 36px !important;
+        display: block;
+    }
+
+    .news .card-wraper .comment-bar .comment-bar-title h2 {
+        float: none;
+        font-size: 15px;
+        margin-left: 29px;
+        margin-right: 10%;
+        color: #fff;
+        margin-top: 10px;
+    }
+
+    .comment-bar-icon {
+        margin-top: 0px;
+        margin-left: 29px;
+    }
+
+    .input3 {
+
+        margin-left: -36px !important;
+    }
+
+    .footer-single-wraper .single-box .massege-input .input-site-btn .input4 {
+        padding: 0px 24px;
+        color: #fff;
+        border-left: 17px solid #ff000000;
+        border-bottom: 46px solid #33cc99;
+        width: 50px;
+        height: 0;
+        position: absolute;
+        right: 31px;
+        top: -46px;
+    }
+
+    .single-box img {
+
+        margin-top: 40px;
+    }
+
+    .icon-group {
+        margin-bottom: 100px;
+    }
+
+    .degital-seo-footer .footer-single-wraper .single-box {
+        padding: 20px 10px;
+    }
+
+
+}
+
+@media (max-width:992px) {
+    .quote-button {
+        text-align: left !important;
+    }
+
+}
+
